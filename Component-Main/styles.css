@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -12,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 1.5rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     max-width: 300px;
@@ -22,7 +23,7 @@ body {
 
 .qr-card img {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     border-radius: 0.5rem;
     margin-bottom: 1.5rem;
 }
