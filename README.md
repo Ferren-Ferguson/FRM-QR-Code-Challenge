@@ -1,1 +1,0 @@
-# FRM-QR-Code-Challenge
