@@ -13,7 +13,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 0.5rem;
+    padding-top: 0.8rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
     border-radius: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     max-width: 250px;
@@ -21,10 +23,12 @@ body {
     font-size: 12px;
 }
 
+
 .qr-card img {
     margin: 0 auto;
     border-radius: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 90%;
 }
 
 .attribution { 
@@ -35,4 +39,20 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+p {
+    font-size: 10px;
+    font-weight: 100    ;
+
+}
+
+.reduce-spacing {
+    margin: 0;
+    padding-bottom: 5%;
+}
+
+h2 {
+    margin: 0;
+    padding: 3%;
 }
